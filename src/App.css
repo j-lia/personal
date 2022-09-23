@@ -3,29 +3,53 @@
 }
 
 .title {
-  font-family: Gafata;
-  font-weight: 400;
-  font-size: 48px;
-  color: black;
-}
-
-.text {
-  font-family: eb-garamond,serif;
-  font-weight: 400;
+  font-family: barlow, sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 16px;
+  font-size: 40px;
   color: black;
-  position: absolute;
 }
 
 .btn {
   margin-left: 15px;
-  font-family: Gafata;
+  font-family: barlow;
   font-weight: 400;
-  font-size: 16px;
-  color: white;
+  font-size: 13px;
+  color: black;
+  border: 1px solid #f2f2f2;
   border-radius: 25px;
-  background-color: #A89173;
-  border: 0px;
+  background-color: #f2f2f2;
   padding: 5px;
+}
+
+.btn:hover {
+  font-weight: 700;
+  border: 1px solid black;
+}
+
+.box {
+  width: 425px;
+  margin-top: 50px;
+  position: absolute;
+  top: 160px;
+  bottom: 0px;
+  font-family: barlow;
+  font-size: 14px;
+  padding: 30px;
+  color: white;
+  background-repeat: no-repeat;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #0e00ff;
+}
+
+a:visited {
+  color: yellow;
+  text-decoration: none;
 }
