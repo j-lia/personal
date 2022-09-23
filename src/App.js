@@ -1,6 +1,7 @@
 
 import bg from './img/home-bg.png';
 import './App.css';
+import { BsArrowUpRight } from 'react-icons/bs';
 
 function App() {
   return (
@@ -28,9 +29,9 @@ function App() {
             <li>learning to climb rocks.</li>
           </ul>
           <br></br>
-          <a className='link' href = "mailto: julia.zheng@yale.edu">EMAIL ↗</a>&nbsp;&nbsp;&nbsp;
-          <a className='link' href = "https://www.linkedin.com/in/julia-y-zheng/">LINKEDIN ↗</a>&nbsp;&nbsp;&nbsp;
-          <a className='link' href = "https://www.instagram.com/juliaxyzz/">INSTAGRAM ↗</a>
+          <a className='link' href = "mailto: julia.zheng@yale.edu">EMAIL <BsArrowUpRight/></a>&nbsp;&nbsp;&nbsp;
+          <a className='link' href = "https://www.linkedin.com/in/julia-y-zheng/">LINKEDIN <BsArrowUpRight/></a>&nbsp;&nbsp;&nbsp;
+          <a className='link' href = "https://www.instagram.com/juliaxyzz/">INSTAGRAM <BsArrowUpRight/></a>
         </div>
       </div>
     </>
