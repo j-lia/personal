@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <>
       <div style={{ marginLeft: '180px', marginTop: '120px'}}>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow"></link>
         <span className="title" style={{ width: '200px' }}>
@@ -28,12 +28,12 @@ function App() {
             <li>learning to climb rocks.</li>
           </ul>
           <br></br>
-          <a className='link' href = "mailto: julia.zheng@yale.edu">EMAIL↗</a>&nbsp;&nbsp;
-          <a className='link' href = "https://www.linkedin.com/in/julia-y-zheng/">LINKEDIN↗</a>&nbsp;&nbsp;
-          <a className='link' href = "https://www.instagram.com/juliaxyzz/">INSTAGRAM↗</a>
+          <a className='link' href = "mailto: julia.zheng@yale.edu">EMAIL ↗</a>&nbsp;&nbsp;&nbsp;
+          <a className='link' href = "https://www.linkedin.com/in/julia-y-zheng/">LINKEDIN ↗</a>&nbsp;&nbsp;&nbsp;
+          <a className='link' href = "https://www.instagram.com/juliaxyzz/">INSTAGRAM ↗</a>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 export default App;
