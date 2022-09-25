@@ -8,6 +8,7 @@
   font-style: normal;
   font-size: 40px;
   color: black;
+  text-decoration: none;
 }
 
 .btn {
@@ -22,6 +23,20 @@
   padding: 5px;
 }
 
+.btnClicked {
+  margin-left: 15px;
+  font-family: barlow;
+  font-weight: 400;
+  font-size: 13px;
+  color: black;
+  border: 1px solid #f2f2f2;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  padding: 5px;
+  font-weight: 700;
+  border: 1px solid black;
+}
+
 .btn:hover {
   font-weight: 700;
   border: 1px solid black;
@@ -33,23 +48,67 @@
   position: absolute;
   top: 160px;
   height: 100vh;
-  font-family: barlow;
-  font-size: 14px;
   padding: 30px;
-  color: white;
   background-repeat: no-repeat;
 }
 
-a:link {
+.homeText {
+  color: white;
+  font-family: barlow;
+  font-size: 14px;
+}
+
+.link:link {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
+.link:hover {
   background-color: black;
 }
 
-a:visited {
+.link:visited {
   color: yellow;
   text-decoration: none;
+}
+
+.wordsText {
+  font-family: barlow;
+  font-size: 14px;
+  color: white
+}
+
+.wordsTextH {
+  font-weight: bold;
+}
+
+.moment {
+  width: 640px;
+  position: absolute;
+  box-shadow: 0px 0px 10px black;
+}
+
+.caption {
+  display: inline-block;
+  position: absolute;
+  width: 270px;
+  top: 425px;
+  left: 770px;
+  font-family: barlow;
+}
+
+.captionTitle {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.captionDate {
+  font-size: 12px;
+  font-weight: bold;
+  color: #B11817;
+}
+
+.captionText {
+  font-size: 12px;
+  font-weight: bold;
 }
