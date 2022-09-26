@@ -4,23 +4,23 @@ import bg from '../img/picture-bg.jpeg'
 const Picture = () => {
   return (
     <>
-    <div style={{ marginLeft: '180px', marginTop: '120px'}}>
+    <div style={{ marginLeft: '10vw', marginTop: '120px'}}>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow"></link>
     <span style={{ width: '200px' }} >
         <a className="title" href="/personal">julia zheng</a>
     </span>
     <div style={{ display: 'inline-block', marginLeft: '72px' }}>
-        <a href="/words"><button className="btn">&nbsp;&nbsp;WORDS&nbsp;&nbsp;</button></a>
-        <a href="/picture"><button className="btnClicked">&nbsp;&nbsp;1 PICTURE&nbsp;&nbsp;</button></a>
+        <a href="/personal/words"><button className="btn">&nbsp;&nbsp;WORDS&nbsp;&nbsp;</button></a>
+        <a href="/personal/picture"><button className="btnClicked">&nbsp;&nbsp;1 PICTURE&nbsp;&nbsp;</button></a>
     </div>
     
     <div>
       <span className='box' style={{ backgroundColor: '#B11817' }}>
-        <body className='wordsText' style={{ position: 'absolute', top: '75px', left:'90px' }}>
-          <a href='/words' className='link' style={{ textDecoration: 'underline', color: 'white' }}>(Look. Slowly, closely.)</a>
+        <body className='wordsText' style={{ position: 'absolute', top: '50px', left:'60px' }}>
+          <a href='/personal/words' className='link' style={{ textDecoration: 'underline', color: 'white' }}>(Look. Slowly, closely.)</a>
         </body>
-        <img src={bg} alt='moment' className='moment' style={{ top: '135px', left:'90px' }}></img>
+        <img src={bg} alt='moment' className='moment' style={{ top: '110px', left:'60px' }}></img>
         <span className='caption'>
           <div className='captionTitle'>THROUGH</div>
           <br/>
