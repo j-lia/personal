@@ -10,8 +10,8 @@ const Words = () => {
             <a className="title" href="/personal">julia zheng</a>
         </span>
         <div style={{ display: 'inline-block', marginLeft: '72px' }}>
-            <a href="/personal/words"><button className="btnClicked">&nbsp;&nbsp;WORDS&nbsp;&nbsp;</button></a>
-            <a href="/personal/picture"><button className="btn">&nbsp;&nbsp;1 PICTURE&nbsp;&nbsp;</button></a>
+            <a href="/words"><button className="btnClicked">&nbsp;&nbsp;WORDS&nbsp;&nbsp;</button></a>
+            <a href="/picture"><button className="btn">&nbsp;&nbsp;1 PICTURE&nbsp;&nbsp;</button></a>
         </div>
         <div className='box' style={{ backgroundImage: `url(${bg})` }}>
           <body className='wordsText'>

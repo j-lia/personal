@@ -11,14 +11,14 @@ const Picture = () => {
         <a className="title" href="/personal">julia zheng</a>
     </span>
     <div style={{ display: 'inline-block', marginLeft: '72px' }}>
-        <a href="/personal/words"><button className="btn">&nbsp;&nbsp;WORDS&nbsp;&nbsp;</button></a>
-        <a href="/personal/picture"><button className="btnClicked">&nbsp;&nbsp;1 PICTURE&nbsp;&nbsp;</button></a>
+        <a href="/words"><button className="btn">&nbsp;&nbsp;WORDS&nbsp;&nbsp;</button></a>
+        <a href="/picture"><button className="btnClicked">&nbsp;&nbsp;1 PICTURE&nbsp;&nbsp;</button></a>
     </div>
     
     <div>
       <span className='box' style={{ backgroundColor: '#B11817' }}>
         <body className='wordsText' style={{ position: 'absolute', top: '50px', left:'60px' }}>
-          <a href='/personal/words' className='link' style={{ textDecoration: 'underline', color: 'white' }}>(Look. Slowly, closely.)</a>
+          <a href='/words' className='link' style={{ textDecoration: 'underline', color: 'white' }}>(Look. Slowly, closely.)</a>
         </body>
         <img src={bg} alt='moment' className='moment' style={{ top: '110px', left:'60px' }}></img>
         <span className='caption'>
